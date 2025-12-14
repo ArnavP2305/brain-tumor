@@ -63,8 +63,10 @@ Two classes: yes (tumor), no (no tumor)
 
 Clone the repository
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/ArnavP2305/brain-tumor.git
+
+
+cd brain-tumor
 
 
 Install dependencies
