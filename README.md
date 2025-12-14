@@ -39,9 +39,10 @@ The CNN model was trained and evaluated on the Brain Tumor MRI Dataset.
 It achieved an overall test accuracy of approximately 86% on unseen MRI images.
 
 
-
-🖼️ Accuracy Graph / Evaluation Screenshot:
 <img width="693" height="539" alt="image" src="https://github.com/user-attachments/assets/766e5eeb-4289-4b72-8fc7-5744b682d953" />
+
+
+
 
 
 📂 Project Structure
