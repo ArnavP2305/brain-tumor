@@ -1,5 +1,5 @@
 venv/
 brain_tumor_dataset/
+brain_tumor_model.h5
 __pycache__/
 *.pyc
-.env
