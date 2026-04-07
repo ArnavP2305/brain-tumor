@@ -15,7 +15,9 @@ MODEL_URL = "https://github.com/ArnavP2305/brain-tumor/releases/download/v1.0/br
 
 if not os.path.exists(MODEL_PATH):
     print("Downloading model from GitHub Release...")
-    urllib.request.urlretrieve(MODEL_URL, MODEL_PATH)
+    req = urllib.request.Request(MODEL_URL, headers={'User-Agent': 'Mozilla/5.0'})
+    with urllib.request.urlopen(req) as response, open(MODEL_PATH, 'wb') as out_file:
+        out_file.write(response.read())
     print("Model downloaded successfully.")
 
 # ===============================
